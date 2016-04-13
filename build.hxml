@@ -2,6 +2,7 @@
 # -lib markdown
 # -lib svglib
 # -lib jQueryExtern
+-lib format
 		
 # Integrate files to classpath
 -cp src
@@ -16,7 +17,8 @@
 -debug
 
 # Resources like templates
-# -resource src/assets/LICENSE@licence
+-resource src/assets/eboy.png@eboy
+-resource src/assets/rainbow.png@rainbow
 
 # Dead code elimination : remove unused code
 # "-dce no" : do not remove unused code
